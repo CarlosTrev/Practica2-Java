@@ -53,7 +53,7 @@ public class Pantalla1 {
             public void actionPerformed(ActionEvent e) {
                 double num1 = Integer.parseInt(txtfldnum1.getText());
                 double num2 = Integer.parseInt(txtfldnum2.getText());
-                JOptionPane.showMessageDialog(null, "El resultado es: " + (num1 / num2));
+                JOptionPane.showMessageDialog(null, "El resultado es: " + String.format("%.2f", (num1 / num2)));
             }
         });
     }
