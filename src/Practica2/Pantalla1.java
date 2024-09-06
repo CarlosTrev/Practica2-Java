@@ -61,7 +61,7 @@ public class Pantalla1 {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Pantalla de operaciones");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(500, 300); //Tamaño de la ventana
+        frame.setSize(500, 300);
         frame.setContentPane(new Pantalla1().PanelPantalla1);
         frame.setBounds(30,30,700,700);
         frame.pack();
